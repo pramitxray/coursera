@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+  
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(197, 189, 250);
+    font-family: "Lucida Console", "Courier New", monospace;;
+}
+  
+.row{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+  
+h1 {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #100830;
+    font-size: 25px;
+}
+  
+  
+.box{
+    width: 100%;
+    overflow: none;
+    position: relative;
+}
+  
+  
+.content-name{
+    float: right;
+    overflow: none;
+    text-align: center;
+    border: 1px solid black;
+    width: 100px;
+    margin: 0px;
+    height: 40px;
+    padding: 5px;
+    float: right;
+    margin-right: 36px;
+    margin-top: 0px;
+    font-weight: bold;
+    position: relative;
+    font-size: 125%;
+    font-weight: bold;
+}
+  
+.content{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    border:3px solid black;
+    width: 90%;
+    height: auto;
+    margin: 2.5%;
+    color: black;
+    font-size: 15px;
+    padding: 2%;
+    padding-top: 55px;
+    background-color: rgba(44, 43, 43, 0.3);
+}
+  
+.name1{
+    background-color: #db6375;
+}
+  
+.name2{
+    background-color: #3baa67;
+}
+.name3{
+    background-color: #FFFF00;
+}
+
+/*desktop*/
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+        width: 33.33%;
+    }
+}
+  
+  
+/*tablet*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6,.col-md-12 {
+      float: left;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-12 {
+        width: 100%;
+        
+    }
+    .name3{
+      margin-right: 0px;
+      width: 100px;
+    }
+  }
+
+/*phone*/
+@media (max-width: 767px) {
+    .col-sm-12 {
+        float: left;
+        width: 100%;
+    }
+    .content-name{
+        margin-right: 30px;
+    }
+}
