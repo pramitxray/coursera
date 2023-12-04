@@ -4,7 +4,7 @@
 
 
 <h1>Output Links</h1>
-Module 2: <a href="https://github.com/pramitxray/coursera/blob/main/mod2/index.html">CLICK HERE</a><br><br>
-Module 3: <a href="https://github.com/pramitxray/coursera/blob/main/mod3/index.html">CLICK HERE</a><br><br>
-Module 4: <a href="https://github.com/pramitxray/coursera/blob/main/mod4/index.html">CLICK HERE</a><br><br>
-Module 5: <a href="https://github.com/pramitxray/coursera/blob/main/mod5/index.html">CLICK HERE</a>
+Module 2: <a href="https://pramitxray.github.io/coursera/mod2/index.html">CLICK HERE</a><br><br>
+Module 3: <a href="https://pramitxray.github.io/coursera/mod3/index.html">CLICK HERE</a><br><br>
+Module 4: <a href="https://pramitxray.github.io/coursera/mod4/index.html">CLICK HERE</a><br><br>
+Module 5: <a href="https://pramitxray.github.io/coursera/mod5/index.html">CLICK HERE</a>
